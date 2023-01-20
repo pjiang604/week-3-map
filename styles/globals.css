@@ -1,14 +1,16 @@
 :root {
   --orange: #fc8803;
-  --teal: #39E3BB;
+  --teal: #639c8b;
+  --wine: #d98687;
+  --ivory: #f2efde;
+  --green: #b3d6b1;
+  --whiteSmoke: whitesmoke;
+  --grey:  	#C0C0C0;
 
   --font16: 16px;
   
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
   --font-sansserif: Arial, Helvetica, sans-serif;
   font-family: sans;
   

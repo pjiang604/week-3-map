@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import epdata from '../data/employees.json'
 import { useState } from 'react'
 import Profile from '../components/Employees'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,8 +24,14 @@ export default function About() {
             </Head>
 
             <main className={styles.main}>
-                
-            <h1>About the Team at Creative Co.</h1>
+
+                <p className={styles.description}>
+                    <Link href="/" className={styles.link}>Home</Link>
+                </p>
+
+                <div className={styles.heading}>
+                <h1>About the Team</h1>
+                </div>
 
                 <div className={styles.grid}>
                     <div className={styles.headerSpacing}>
@@ -43,7 +50,7 @@ export default function About() {
                                         phoneNumber={epdata.phoneNumber}
                                         yearsWorked={epdata.yearsWorked}
                                         bio={epdata.bio}
-                                        colour="pink" /> //This is pulling the Card component, passing over the degree property
+                                        colour="var(--wine)" /> //This is pulling the Card component, passing over the degree property
                                 )
                             }
                         })}
@@ -52,23 +59,22 @@ export default function About() {
                         <b>Marketing</b>
                     </div>
                     <div className={styles.profiles}>
-                        {
-                            employeeData && employeeData.map((epdata, index) => {
-                                if (epdata.department === "Marketing") {
-                                    return (
-                                        <Profile key={index}
-                                            image={epdata.image}
-                                            name={epdata.name}
-                                            position={epdata.position}
-                                            department={epdata.department}
-                                            email={epdata.email}
-                                            phoneNumber={epdata.phoneNumber}
-                                            yearsWorked={epdata.yearsWorked}
-                                            bio={epdata.bio}
-                                            colour="orange" /> //This is pulling the Card component, passing over the degree property
-                                    )
-                                }
-                            })
+                        {employeeData && employeeData.map((epdata, index) => {
+                            if (epdata.department === "Marketing") {
+                                return (
+                                    <Profile key={index}
+                                        image={epdata.image}
+                                        name={epdata.name}
+                                        position={epdata.position}
+                                        department={epdata.department}
+                                        email={epdata.email}
+                                        phoneNumber={epdata.phoneNumber}
+                                        yearsWorked={epdata.yearsWorked}
+                                        bio={epdata.bio}
+                                        colour="var(--teal)" /> //This is pulling the Card component, passing over the degree property
+                                )
+                            }
+                        })
                         }
                     </div>
                 </div>

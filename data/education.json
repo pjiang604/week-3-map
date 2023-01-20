@@ -1,42 +1,47 @@
 [
         {
-            "studentNumber": "A0004567",
-            "firstName": "Person 1",
+            "image": "headshots/alex.jpg",
+            "firstName": "Alex Starnes",
             "gpa": 3.8,
             "department": "Business",
             "degree": "Finance",
-            "graduted": 2014
+            "graduted": 2014,
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui dui, tincidunt eu ligula vestibulum, tincidunt ultrices eros. Cras ornare sapien velit, id mattis neque luctus aliquet. Sed iaculis condimentum lorem id sagittis. Pellentesque condimentum gravida leo, vel tempor ante laoreet sit amet. Quisque hendrerit."
         },
         {
-            "studentNumber": "A0001234",
-            "firstName": "Person 2",
+            "image": "headshots/ryan.jpg",
+            "firstName": "Ryan Hoffman",
             "gpa": 3.5,
             "department": "Business",
             "degree": "Accounting",
-            "graduted": 2010
+            "graduted": 2010,
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui dui, tincidunt eu ligula vestibulum, tincidunt ultrices eros. Cras ornare sapien velit, id mattis neque luctus aliquet. Sed iaculis condimentum lorem id sagittis. Pellentesque condimentum gravida leo, vel tempor ante laoreet sit amet. Quisque hendrerit."
         },
         {
-            "studentNumber": "A0007890",
-            "firstName": "Person 3",
+            "image": "headshots/william.jpg",
+            "firstName": "William Souza",
             "gpa": 3.2,
             "department": "Computing",
             "degree": "Applied Software Development Certificate",
-            "graduted": 2018
+            "graduted": 2018,
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui dui, tincidunt eu ligula vestibulum, tincidunt ultrices eros. Cras ornare sapien velit, id mattis neque luctus aliquet. Sed iaculis condimentum lorem id sagittis. Pellentesque condimentum gravida leo, vel tempor ante laoreet sit amet. Quisque hendrerit."
         },
         {
-            "studentNumber": "A0007828",
-            "firstName": "Person 4",
+            "image": "headshots/brianna.jpg",
+            "firstName": "Brianna Lawson",
             "gpa": 3.9,
             "department": "Computing",
             "degree": "Computer Systems Diploma",
-            "graduted": 2021
+            "graduted": 2021,
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui dui, tincidunt eu ligula vestibulum, tincidunt ultrices eros. Cras ornare sapien velit, id mattis neque luctus aliquet. Sed iaculis condimentum lorem id sagittis. Pellentesque condimentum gravida leo, vel tempor ante laoreet sit amet. Quisque hendrerit."
         },
         {
-            "studentNumber": "A0003425",
-            "firstName": "Person 5",
+            "image": "headshots/alexander.jpg",
+            "firstName": "Alexander Hipp",
             "gpa": 3.2,
             "department": "Computing",
             "degree": "Applied Computer Information Systems Certificate",
-            "graduted": 2021
+            "graduted": 2021,
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui dui, tincidunt eu ligula vestibulum, tincidunt ultrices eros. Cras ornare sapien velit, id mattis neque luctus aliquet. Sed iaculis condimentum lorem id sagittis. Pellentesque condimentum gravida leo, vel tempor ante laoreet sit amet. Quisque hendrerit."
         }
 ]

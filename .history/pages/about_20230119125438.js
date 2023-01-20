@@ -3,7 +3,7 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import epdata from '../data/employees.json'
 import { useState } from 'react'
-import Profile from '../components/Employees'
+import Profile from '../components/Card/aboutProfile'
 
 const inter = Inter({ subsets: ['latin'] })
 

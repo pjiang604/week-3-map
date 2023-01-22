@@ -6,6 +6,7 @@
   min-height: 100vh;
   font-family: var(--font-sansserif);
   background-color: var(--ivory);
+  color: black;
 }
 
 .description {
